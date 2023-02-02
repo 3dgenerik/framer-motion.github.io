@@ -1,10 +1,14 @@
 import React from 'react';
+import { Pizza } from './features/Pizza';
 
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <Pizza/>
+    </>
   );
 }
 
 export default App;
+
+//link to tuts https://www.youtube.com/watch?v=lfR2X-jsy8A
