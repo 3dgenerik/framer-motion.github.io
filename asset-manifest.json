@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/framer-motion.github.io/static/css/main.7ea6f1ca.css",
+    "main.js": "/framer-motion.github.io/static/js/main.10b6557e.js",
+    "index.html": "/framer-motion.github.io/index.html",
+    "main.7ea6f1ca.css.map": "/framer-motion.github.io/static/css/main.7ea6f1ca.css.map",
+    "main.10b6557e.js.map": "/framer-motion.github.io/static/js/main.10b6557e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ea6f1ca.css",
+    "static/js/main.10b6557e.js"
+  ]
+}
