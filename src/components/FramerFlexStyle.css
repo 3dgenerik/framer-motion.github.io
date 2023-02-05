@@ -1,0 +1,17 @@
+.container{
+    width:70%;
+    height:100px;
+    padding:10px;
+    display:flex;
+    justify-content: start;
+    cursor: pointer;
+}
+
+.container[data-ison = "false"]{
+    justify-content: end;
+}
+
+.handler{
+    width:80px;
+    height:80px;
+}

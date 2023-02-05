@@ -1,0 +1,16 @@
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: 10px;
+    background: red;
+    transform-origin: 0%;
+  }
+
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+  }

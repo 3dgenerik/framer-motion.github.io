@@ -23,11 +23,12 @@ const pizzaSlice = createSlice({
         },
 
         addTopping:(state, action:PayloadAction<string>) => {
-
+            if(!state.pizza.topping.includes(action.payload))
+                state.pizza = {...state.pizza, topping:[...state.pizza.topping, action.payload]}
         }
 
     }
 })
 
 export default pizzaSlice.reducer
-export const {addBase} = pizzaSlice.actions
+export const {addBase, addTopping} = pizzaSlice.actions
