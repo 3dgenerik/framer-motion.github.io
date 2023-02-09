@@ -14,9 +14,9 @@ function App() {
 
   return (
     <>
-      {/* <Pizza/> */}
-      {/* {foo} */}
-      {/* <FramerFlex/> */}
+      <Pizza/>
+      {foo}
+      <FramerFlex/>
       <Scroll/>
 
     </>
