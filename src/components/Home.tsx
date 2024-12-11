@@ -86,13 +86,13 @@ export const Home :React.FC<HomeProps> = ({num}) => {
             </motion.div>
 
 
-            {/* <motion.button
+            <motion.button
                 whileHover={{
                     scale:1.3,
                     originX:0
                 }}
                 className='btn btn-info m-2 d-block'
-            >My buitton</motion.button> */}
+            >Release 0.1.0</motion.button>
 
             <button className="btn btn-info" onClick={()=>setIsMoved(!isMoved)}>Move sphere</button>
             <motion.div
