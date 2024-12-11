@@ -95,6 +95,15 @@ export const Home :React.FC<HomeProps> = ({num}) => {
 
             >Release 0.1.0</motion.button>
 
+<motion.button
+                whileHover={{
+                    scale:1.3,
+                    originX:0
+                }}
+                className='btn btn-info m-2 d-block'
+
+            >New Button 04</motion.button>
+
             <button className="btn btn-info" onClick={()=>setIsMoved(!isMoved)}>Move sphere</button>
             <motion.div
                 style={{width:'100px', height:'100px'}}
