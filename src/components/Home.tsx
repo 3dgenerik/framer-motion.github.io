@@ -72,6 +72,7 @@ export const Home :React.FC<HomeProps> = ({num}) => {
     
     return(
         <motion.div>
+            <h1>TITLE 03</h1>
             <motion.div
                 style={{backgroundColor:'#ff0000', cursor:'pointer', height:'60px', width:'100px'}}
                 className='rounded-4 text-light fw-bold d-flex justify-content-center align-center m-3'
