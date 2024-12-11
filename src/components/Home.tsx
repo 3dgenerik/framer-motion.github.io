@@ -102,7 +102,7 @@ export const Home :React.FC<HomeProps> = ({num}) => {
                 }}
                 className='btn btn-info m-2 d-block'
 
-            >New Button 02</motion.button>
+            >New Button 03</motion.button>
 
             <button className="btn btn-info" onClick={()=>setIsMoved(!isMoved)}>Move sphere</button>
             <motion.div
