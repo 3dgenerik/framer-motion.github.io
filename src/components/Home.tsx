@@ -86,7 +86,6 @@ export const Home :React.FC<HomeProps> = ({num}) => {
                 >Jovica</motion.div>
             </motion.div>
 
-
             <motion.button
                 whileHover={{
                     scale:1.3,
